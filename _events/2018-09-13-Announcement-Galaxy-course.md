@@ -1,6 +1,7 @@
 ---
 site: freiburg
 tags:
+- training
 title: Galaxy RNA-seq data analysis workshop in Freiburg
 starts: 2018-12-06
 ends: 2018-12-07
@@ -54,7 +55,7 @@ accommodation costs.
    by email](mailto:contact@usegalaxy.eu) immediately. We have a long waiting
    list and can give your place to others, even on short notice.
 2. You can bring your *own notebook* or computers will be available. Eduroam is available, ask your institute for how to login.
-3. The workshop is free of charge. No stipends for travel or accommodation are available.
+3. The workshop is free of charge. Unfortunately no stipends for travel or accommodation are available.
 4. DZL Academy Fellows will be reimbursed for travel and accommodation by DZL Academy.
 
 
@@ -64,9 +65,14 @@ Every day the workshop will run from 9:00-17:00 (give or take, depending on ques
 
 Day     | Topics
 ------- | --------
-Thu     | **Starts at 10:00 am**,  HTS and Galaxy presentations and introduction
-Fri     | RNA-seq analysis
+Thursday| **Starts at 10:00 am**, Galaxy Introduction ([Slides](https://galaxyproject.github.io/training-material/topics/introduction/slides/introduction.html), [Tutorial](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html)) and HTS Introduction ([QC](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html), [Mapping](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html))
+Evening Program | We meet at 18:30 at the [Tourist Information](https://goo.gl/maps/Yrzw7oaars) place in Freiburg next to the old Rathaus.
+Friday  | RNA-seq analysis ([Slides](https://galaxyproject.github.io/training-material/topics/transcriptomics/slides/introduction.html), [Tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html))
 {:.table.table-striped}
+
+## Lunch Options
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1Brpw-UguRNDISn4_bVk8ifRkTRG8JIWR" width="100%" height="480"></iframe>
 
 ## Preparation
 
@@ -85,7 +91,7 @@ If you have any questions, please do not hesitate to [contact us](mailto:contact
 From Basel airport to Freiburg you have two options:
 
 1. Take the train to Freiburg Hauptbahnhof (ICE or EC takes 30 min; Regio 60 min)
-2. Take the airport shuttle bus to Freiburg Hauptbahnhof ([Timetable](http://www.freiburger-reisedienst.de/en/airportbus/timetable.php))
+2. Take the airport shuttle bus to Freiburg Hauptbahnhof ([Timetable](https://www.freiburger-reisedienst.de/en/airportbus/timetable.php))
 
 From Freiburg Hauptbahnhof to Venue you should use local public transport (VAG):
 

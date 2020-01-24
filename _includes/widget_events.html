@@ -1,7 +1,7 @@
 <div class>
   <div class="list-group">
     {% if include.logo %}
-    <img src="{{ "/assets/media/galaxy-eu.svg" | absolute_url }}" style="padding: 0.5em; height: 5em;"/>
+    <img src="/assets/media/galaxy-eu.svg" style="padding: 0.5em; height: 5em;"/>
     {% endif %}
     {% assign items1 = site.events | sort:"starts" | reverse %}
 
@@ -21,7 +21,12 @@
 
     {% for post in items limit:6 %}
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-      <a class="list-group-item {% if include.site and site.team_sites[include.site].private_news  %}{% else %}border-{{ post.site }}{% endif %}" href="{{ post.url | absolute_url }}{{ url_ext }}" {{ url_target }}>
+      {% if post.external %}
+        {% assign url = post.external %}
+      {% else %}
+        {% assign url = post.url | append: url_ext%}
+      {% endif %}
+      <a class="list-group-item {% if include.site and site.team_sites[include.site].private_news  %}{% else %}border-{{ post.site }}{% endif %}" href="{{ url }}" {{ url_target }}>
         <p class="list-group-item-text">
         {% if post.starts == post.ends %}
         {{ post.starts | date: date_format }}
@@ -32,6 +37,7 @@
 
         <h4 class="list-group-item-heading">
           <i class="fa fa-calendar" aria-hidden="true"></i>
+          {% include article_icons.html post=post %}
           {{ post.title | escape }}
         </h4>
       </a>

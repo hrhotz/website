@@ -17,7 +17,7 @@ title: "Galaxy Europe"
 description: The European Galaxy Instance
 email: contact@usegalaxy.eu
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://usegalaxy-eu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://galaxyproject.eu" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: galaxyproject
 github_username:  usegalaxy-eu
 blurb:
@@ -91,6 +91,27 @@ team_sites:
 
           To inquire about this Galaxy server, increasing your disk quotum, or possibilities for collaborative
           projects, please contact one of our [team](/erasmusmc/people)
+    belgium:
+      name: VIB
+      url: /vib/
+      #email:
+      #twitter_username: erasmusmc
+      #github_username: erasmusmc-bioinformatics
+      private_news: true
+      url: "https://www.usegalaxy.be/"
+      galaxy_server: "https://www.usegalaxy.be/"
+      blurb: |
+        Welcome to the Galaxy Instance of VIB - UGent Hosted at VSC (Flemish Supercomputer Centre)
+    pasteur:
+      name: Pasteur
+      url: /pasteur/
+      #email:
+      #twitter_username:
+      #github_username:
+      private_news: true
+      url: "https://galaxy.pasteur.fr/"
+      galaxy_server: "https://galaxy.pasteur.fr/"
+      blurb: ""
 
 header_links:
     main:
@@ -113,6 +134,8 @@ header_links:
           url: /freiburg/projects
         - name: Services
           url: /freiburg/services
+        - name: Jobs
+          url: /freiburg/jobs
         - name: Publications
           url: /freiburg/publications
     erasmusmc:
@@ -124,6 +147,24 @@ header_links:
           url: /erasmusmc/people
         - name: Publications
           url: /erasmusmc/publications
+    belgium:
+        - name: News
+          url: /belgium/news
+        - name: Events
+          url: /belgium/events
+        - name: People
+          url: /belgium/people
+        - name: Publications
+          url: /belgium/publications
+    pasteur:
+        - name: News
+          url: /pasteur/news
+        - name: Events
+          url: /pasteur/events
+        - name: People
+          url: /pasteur/people
+        - name: Publications
+          url: /pasteur/publications
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
